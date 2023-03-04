@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 36px;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
