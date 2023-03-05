@@ -22,3 +22,43 @@ body{
     display: flex;
     gap: 16px;
 }
+
+.first-section {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 100px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.text1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    color: white;
+    background-color: #3882f6;
+    border: 0px;
+    border-radius: 10px;
+}
+
+img {
+    height: 150px;
+    width: auto;
+}
