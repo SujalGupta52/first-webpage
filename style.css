@@ -9,18 +9,20 @@ body{
     background-color: #1F2937;
     justify-content: space-around;
     align-items: center;
-    color: white;
+
     height: 36px;
 }
 
 .logo {
     font-weight: bolder;
     font-size: larger;
+    color: #f9faf8;
 }
 
 .header-links {
     display: flex;
     gap: 16px;
+    color: #E5E7EB;
 }
 
 .first-section {
@@ -61,4 +63,41 @@ button {
 img {
     height: 150px;
     width: auto;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+    gap: 32px;
+}
+
+.heading {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.card-container {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-basis: 50px;
+    flex-direction: column;
+    padding: 8px;
+    text-align: center;
+}
+
+.box {
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+    border-color: #3882f6;
 }
